@@ -1,0 +1,110 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Roboto&display=swap"); */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f3e0e2;
+  /* font-family: "Inter", sans-serif;
+  font-family: "Roboto", sans-serif; */
+}
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  padding: 100px;
+}
+.form-container {
+  height: 65vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  width: 30%;
+  padding-top: 20px;
+}
+.input-container p {
+  text-align: center;
+  padding-bottom: 8px;
+  color: lightgray;
+}
+.form-container input {
+  display: block;
+  margin: 10px;
+  padding: 10px 15px;
+  border-radius: 50px;
+  width: 340px;
+  height: 50px;
+  background-color: #eeeeee;
+  border-style: none;
+  outline: none;
+}
+.box-center {
+  margin: 10px auto !important;
+}
+
+.text-center {
+  text-align: center;
+}
+.text-container {
+  height: 65vh;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff4360;
+  width: 30%;
+  color: white;
+  padding-top: 70px;
+}
+.form-container h2 {
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+.bottom-container p {
+  text-align: center;
+  color: lightgrey;
+}
+.btn {
+  background-color: #ff4b2b;
+  color: white;
+  border-radius: 20px;
+  width: 160px;
+  height: 45px;
+  border-style: none;
+  margin: 30px;
+  cursor: pointer;
+}
+h1 {
+  padding: 50px;
+}
+.rg-container a,
+.rg-container-1 a {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+}
+.rg-container-1 a {
+  font-size: 25px !important;
+  color: white;
+  outline: none;
+}
+
+.rg-container-1 .btn-1 {
+  background-color: #ff4b2b;
+  border-radius: 50px;
+  margin: 12px;
+  padding: 15px;
+  border-style: none;
+}
+.left-border {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.right-border {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
